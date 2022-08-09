@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.grid{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+.grid div{
+    width: 23px;
+    height: 23px;
+    border: solid rgba(0, 0, 0, 0.05) 1px;
+}
+.snake{
+    background-color: green;
+    border-radius: 13%;
+}
+.apple{
+    background-color: red;
+    border-radius: 50%;
+}
